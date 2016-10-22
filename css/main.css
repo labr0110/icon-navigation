@@ -1,0 +1,22 @@
+html {
+  font-family: 'Abhaya Libre', serif;
+}
+
+.btn {
+  background-color: #15114c;
+  border: 3px solid #15114c;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border: 3px solid #fff;
+  color: #15114c;
+}
+
+.masthead {
+  background-color: #423ca3;
+}
+
+h1 {
+  color: #fff;
+}
