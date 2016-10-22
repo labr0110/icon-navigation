@@ -1,22 +1,39 @@
 html {
-  font-family: 'Abhaya Libre', serif;
-}
-
-.btn {
-  background-color: #15114c;
-  border: 3px solid #15114c;
-}
-
-.btn:hover {
-  background-color: #fff;
-  border: 3px solid #fff;
-  color: #15114c;
+  font-family: "Abhaya Libre", serif;
 }
 
 .masthead {
   background-color: #423ca3;
+  color: #fff;
 }
 
-h1 {
+.nav a {
+  background-color: #15114c;
   color: #fff;
+  border: none;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    float: left;
+  }
+
+  .nav {
+    float: right;
+  }
+
 }
